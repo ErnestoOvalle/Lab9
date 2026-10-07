@@ -1,0 +1,39 @@
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.formulario input[type="text"],
+.formulario input:not([type]),
+.formulario input[type="number"] {
+  padding: 0.4rem;
+}
+
+.error {
+  color: #d33;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #8884;
+  padding: 0.4rem 0.6rem;
+}
+
+td button {
+  margin-right: 0.3rem;
+}
